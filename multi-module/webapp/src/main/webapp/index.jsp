@@ -26,7 +26,7 @@
 <body>
 <h1> Dev Register Form</h1>
 <form action="guru_register" method="post">
-                        <table style="with: 100%">
+                        <table style="with: 50%">
                                 <tr>
                                         <td style="font:25px bold blue"> First Name</td>
                                         <td><input type="text" name="first_name" /></td>
