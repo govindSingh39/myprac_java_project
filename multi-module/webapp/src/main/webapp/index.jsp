@@ -6,11 +6,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title> Dev  Registration Form</title>
+    <style>
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
 </head>
 <body>
 <h1> Dev Register Form</h1>
 <form action="guru_register" method="post">
-                        <table style="with: 50% ; color:red; border:2px">
+                        <table style="with: 100%">
                                 <tr>
                                         <td style="font:25px bold blue"> First Name</td>
                                         <td><input type="text" name="first_name" /></td>
@@ -36,7 +52,17 @@
                                         <td><input type="text" name="contact" /></td>
                                 </tr></table>
                         <input type="submit" value="Submit" /></form>
+
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a  href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
 </body>
 </html>
  
 
+© 2020 GitHub, Inc.
