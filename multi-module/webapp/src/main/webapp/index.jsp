@@ -11,7 +11,7 @@
   display: inline-block;
 }
 .pagination a {
-  color: black;
+  color: Orange;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
